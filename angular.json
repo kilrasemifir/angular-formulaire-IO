@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "exo3"
+    }
+  },
+  "defaultProject": "exo3",
+  "cli": {
+    "analytics": false
+  }
 }

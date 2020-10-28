@@ -1,0 +1,20 @@
+<table style="width: 100%">
+    <thead>
+        <tr>
+            <th>nom</th>
+            <th>prénom</th>
+            <th>age</th>
+            <th>adresse</th>
+            <th>nombre de chats</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.nom}}</td>
+            <td>{{user.prenom}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.adresse.numero}} {{user.adresse.rue}} {{user.adresse.codePostal}}</td>
+            <td>{{user.chats.length}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+.user-form {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
