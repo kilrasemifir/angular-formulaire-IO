@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+<table>
+    <thead>
+        <tr>
+            <th *ngFor="let column of columns">{{column.title}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td *ngFor="let column of columns">{{item[column.selector]}}</td>
+        </tr>
+    </tbody>
+    
+</table>

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserFormComponent } from './components/user-form/user-form.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserLayoutComponent } from './layouts/user-layout/user-layout.component';
+import { DataTableComponent } from './components/data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { UserLayoutComponent } from './layouts/user-layout/user-layout.component
     UserFormComponent,
     UserListComponent,
     UserLayoutComponent,
+    DataTableComponent,
   ],
   imports: [
     BrowserModule,
